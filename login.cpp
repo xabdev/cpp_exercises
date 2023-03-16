@@ -10,7 +10,7 @@ int main() {
     int attempt = 0;
 
     while (attempt != 3) {
-        std::cout << "Ingrese su Usuario:" << std::endl;
+        std::cout << "Ingrese su Usuario :" << std::endl;
         std::cin >> user;
             if (user != "net") {
                 ++attempt;
